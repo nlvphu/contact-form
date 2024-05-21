@@ -1,0 +1,110 @@
+
+
+
+body{
+    background-color: var(--light-green);
+    color: var(--dark-grey);
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.name-container {
+    display: flex;
+}
+
+.name {
+    margin: 0 20px;
+}
+
+#first-name {
+    width: 200px;
+}
+
+#last-name {
+    width: 220px;
+}
+
+#first-name, #last-name {
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#label-email, #email {
+    margin: 5px 20px;
+}
+
+#email {
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.query-type {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#label-query-type {
+    margin: 0px 10px;
+}
+
+#general-enquiry, #support-request {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#label-message {
+    padding: 0px 20px;
+}
+
+#message {
+    margin: 10px 20px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    height: 40px;
+    width: 460px;
+    border: none;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+
+#submit {
+    margin-bottom: 20px;
+}
